@@ -18,7 +18,7 @@ The AQER (Automated Quality Evaluation based on textual Responses) framework is 
 ```
 .
 ├── framework/                  # AQER core implementation (to be added)
-├── simulations/                # Simulation code used for stress tests
+├── simulation/                # Simulation code used for stress tests
 │   ├── AQER_Simulator.py
 │   └── AQER_simulation_usage_examples.py
 ├── datasets/                   # Real-world and semi-synthetic datasets (to be added)
