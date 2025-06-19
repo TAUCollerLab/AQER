@@ -29,9 +29,27 @@ The AQER (Automated Quality Evaluation based on textual Responses) framework is 
 
 ## Quick Start
 
-### Framework 
+### Framework
 
-The `framework/` directory includes the AQER class and its expectation_maximization_e method for real-world data evaluation using AQER. 
+The `framework/` directory includes the core AQER grading engine used to evaluate worker or model responses to free-text questions.
+
+#### `AQER.py`
+
+Implements the `AQER` class, which performs unsupervised quality assessment using an Expectation-Maximization (EM) approach.
+
+```python
+from framework.AQER import AQER
+
+aqer = AQER(answers_embeddings=df, max_iterations=1000, threshold=1e-5)
+grades, skill_levels = aqer.grades_expectation_maximization()
+```
+
+**Input**: A DataFrame with columns `["question", "worker", "x1", ..., "xn"]`, where each row corresponds to a worker's answer embedding.
+
+**Output**:
+- `grades`: Estimated quality scores for each worker
+- `skill_levels`: Skill levels inferred through iterative optimization
+
 
 ### Simulations
 
