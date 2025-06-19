@@ -78,7 +78,7 @@ python AQER_simulation_usage_examples.py
 
 We will also provide example datasets (synthetic and real-world) in the `datasets/` directory for reproducibility.
 
-## 🧪 Requirements
+## Requirements
 
 - Python 3.7+
 - NumPy
