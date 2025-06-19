@@ -3,7 +3,7 @@
 
 This repository contains the full implementation of the AQER framework and associated simulation tools used in the research paper:
 
-Yahav, I., Goldstein, A., Geva, T., Shehory, O., & Meir, S. (2025). **Quality control for crowd workers and for language models: A framework for free-text response evaluation with no ground truth. Management Science. (Accepted for publication).**
+Yahav, I., Goldstein, A., Geva, T., Shehory, O., & Meir, S. (2025). **Quality control for crowd workers and for language models: A framework for free-text response evaluation with no ground truth. Information Systems Research. (Accepted for publication).**
 
 ## Overview
 
