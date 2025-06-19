@@ -3,17 +3,17 @@
 
 This repository contains the full implementation of the AQER framework and associated simulation tools used in the research paper:
 
-**"Quality Control for Crowd Workers and for Language Models: A Framework for Free-Text Response Evaluation with No Ground Truth"**
+Yahav, I., Goldstein, A., Geva, T., Shehory, O., & Meir, S. (2025). **Quality control for crowd workers and for language models: A framework for free-text response evaluation with no ground truth. Management Science. (Accepted for publication).**
 
-## 📄 Overview
+## Overview
 
 The AQER (Automated Quality Evaluation based on textual Responses) framework is designed to evaluate the quality of crowd worker and LLM responses without requiring access to ground-truth data. This repository includes:
 
-- The **AQER simulation tool** to test the framework's robustness in synthetic and stress-testing scenarios.
 - The **AQER framework code** for processing and evaluating real-world data.
+- The **AQER simulation tool** to test the framework's robustness in synthetic and stress-testing scenarios.
 - Example **datasets** and evaluation scripts used in the study.
 
-## 📦 Repository Structure
+## Repository Structure
 
 ```
 .
@@ -25,14 +25,8 @@ The AQER (Automated Quality Evaluation based on textual Responses) framework is 
 ├── README.md                   # Project documentation
 ```
 
-## 🧠 Key Features
 
-- **No Ground Truth Required**: AQER works with only worker- or model-generated responses.
-- **Flexible Simulation Environment**: Generate test cases to probe AQER's limits.
-- **EM-Based Skill Inference**: Uses Expectation-Maximization to estimate worker/model quality.
-- **Modular Design**: Easy to plug in new datasets or scoring functions.
-
-## ▶️ Quick Start
+## Quick Start
 
 ### Simulations
 
@@ -65,37 +59,19 @@ The `framework/` directory will include code for real-world data evaluation usin
 
 We will also provide example datasets (synthetic and real-world) in the `datasets/` directory for reproducibility.
 
-## 📊 Output Metrics
-
-Simulation and framework evaluations report:
-- `avg_epoch_0`: Correlation of worker scores after one iteration
-- `avg_with_iter`: Correlation after convergence
-- Evaluation is based on cosine similarity with true or consensus embeddings
-
 ## 🧪 Requirements
 
 - Python 3.7+
 - NumPy
 - pandas
-- scikit-learn
+- scikit-learn 
 - matplotlib
 
-Install with:
 
-```bash
-pip install numpy pandas scikit-learn matplotlib
-```
-
-## 📚 Citation
-
-If you use this code, please cite our work:
-
-```
-[APA/BibTeX citation of the paper]
-```
-
-## 🤝 Contributing
-
+##  Contact
+inbalyahav@tauex.tau.ac.il
+anatgo@ariel.ac.il
+ge.tomer1@gmail.com
 For contributions, issues, or questions, please contact the authors or submit a pull request.
 
 ---
