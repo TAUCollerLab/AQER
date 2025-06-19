@@ -88,9 +88,9 @@ We will also provide example datasets (synthetic and real-world) in the `dataset
 
 
 ##  Contact
-inbalyahav@tauex.tau.ac.il
-anatgo@ariel.ac.il
-ge.tomer1@gmail.com
+inbalyahav@tauex.tau.ac.il <br>
+anatgo@ariel.ac.il <br>
+ge.tomer1@gmail.com <br>
 For contributions, issues, or questions, please contact the authors or submit a pull request.
 
 ---
