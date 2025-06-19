@@ -17,7 +17,8 @@ The AQER (Automated Quality Evaluation based on textual Responses) framework is 
 
 ```
 .
-├── framework/                  # AQER core implementation (to be added)
+├── Framework/                  # AQER core implementation (to be added)
+│   ├── AQER.py
 ├── simulation/                # Simulation code used for stress tests
 │   ├── AQER_Simulator.py
 │   └── AQER_simulation_usage_examples.py
@@ -27,6 +28,10 @@ The AQER (Automated Quality Evaluation based on textual Responses) framework is 
 
 
 ## Quick Start
+
+### Framework 
+
+The `framework/` directory includes the AQER class and its expectation_maximization_e method for real-world data evaluation using AQER. 
 
 ### Simulations
 
@@ -50,10 +55,6 @@ To replicate the full Appendix F experiments from the paper, run the script:
 ```bash
 python AQER_simulation_usage_examples.py
 ```
-
-### Framework (to be added)
-
-The `framework/` directory will include code for real-world data evaluation using AQER. This will support embedding models, response grading, and report generation.
 
 ### Datasets (to be added)
 
