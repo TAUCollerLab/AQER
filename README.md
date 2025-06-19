@@ -11,7 +11,7 @@ The AQER (Automated Quality Evaluation based on textual Responses) framework is 
 
 - The **AQER framework code** for processing and evaluating real-world data.
 - The **AQER simulation tool** to test the framework's robustness in synthetic and stress-testing scenarios.
-- Example **datasets** and evaluation scripts used in the study.
+- Example **datasets** used in the study (TBD).
 
 ## Repository Structure
 
